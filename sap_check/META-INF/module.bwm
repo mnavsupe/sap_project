@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:property="http://ns.tibco.com/bw/property" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_vZQiEDp0EemqHYo-2IEveA" targetNamespace="http://tns.tibco.com/bw/composite/sap_check" name="sap_check" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_xWAioDp0EemqHYo-2IEveA" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_xWiHEDp0EemqHYo-2IEveA" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_xWxXoDp0EemqHYo-2IEveA" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_xW8WwDp0EemqHYo-2IEveA" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_xXUKMDp0EemqHYo-2IEveA" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_xXdUIDp0EemqHYo-2IEveA" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_xXmeEDp0EemqHYo-2IEveA" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_xYIpkDp0EemqHYo-2IEveA" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_xYP-UDp0EemqHYo-2IEveA" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_6XBQIDp0EemqHYo-2IEveA" name="SAPAppServer" type="XMLSchema:string"/>
+  <sca:property xmi:id="_6XBQITp0EemqHYo-2IEveA" name="SAPSystemNumber" type="XMLSchema:string"/>
+  <sca:property xmi:id="_6XBQIjp0EemqHYo-2IEveA" name="SAPClient" type="XMLSchema:string"/>
+  <sca:property xmi:id="_6XBQIzp0EemqHYo-2IEveA" name="SAPUserName" type="XMLSchema:string"/>
+  <sca:property xmi:id="_6XBQJDp0EemqHYo-2IEveA" name="SAPPassword" type="property:password"/>
+  <sca:property xmi:id="_6XBQJTp0EemqHYo-2IEveA" name="SAPSystemName" type="XMLSchema:string"/>
+  <sca:property xmi:id="_6XBQJjp0EemqHYo-2IEveA" name="SAPMsgServer" type="XMLSchema:string"/>
+  <sca:property xmi:id="_6XBQJzp0EemqHYo-2IEveA" name="SAPLogonGroup" type="XMLSchema:string"/>
+  <sca:property xmi:id="_6XBQKDp0EemqHYo-2IEveA" name="SAPProgramID" type="XMLSchema:string"/>
+  <sca:property xmi:id="_6XBQKTp0EemqHYo-2IEveA" name="SAPGatewayService" type="XMLSchema:string"/>
+  <sca:property xmi:id="_6XBQKjp0EemqHYo-2IEveA" name="SAPGatewayHost" type="XMLSchema:string"/>
+  <sca:property xmi:id="_6XBQKzp0EemqHYo-2IEveA" name="SAPSncMode" type="XMLSchema:string"/>
+  <sca:property xmi:id="_6XBQLDp0EemqHYo-2IEveA" name="SAPSncPartnername" type="XMLSchema:string"/>
+  <sca:property xmi:id="_6XBQLTp0EemqHYo-2IEveA" name="SAPSncQop" type="XMLSchema:string"/>
+  <sca:property xmi:id="_6XBQLjp0EemqHYo-2IEveA" name="SAPSncMyname" type="XMLSchema:string"/>
+  <sca:property xmi:id="_6XBQLzp0EemqHYo-2IEveA" name="SAPSncLib" type="XMLSchema:string"/>
+  <sca:component xmi:id="_wefr0Dp0EemqHYo-2IEveA" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_weiIEDp0EemqHYo-2IEveA" processName="sap_check.Process"/>
+  </sca:component>
+</sca:composite>
